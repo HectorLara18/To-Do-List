@@ -1,3 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    margin: 2px 5px;
+    border: solid 1px black;
+    text-align: center;
+    border-radius: 3px;
+    color: #f07167;
+}
+
+h3{
+    background-color: #fed9b7;
+}
+
+#todo-input{
+    margin: 2px 5px;
+}
+
 input{
     border: 1px solid #aaa;
+}
+
+#pendientes{
+    border: 1px solid black;
+    width: 45%;
+    left: 0%;
+    float: left;
+    overflow: inherit;
+    margin: 1px;
+    border-radius: 3px;
+}
+
+#completado{
+    border: 1px solid black;
+    width: 45%;
+    right: 0%;
+    float: right;
+    margin: 1px;
+    border-radius: 3px;
+}
+
+#todo-list{
+    background-color: #fdfcdc;
+}
+
+#todo-list li{
+    list-style-type: disc;
+    margin: 0 20px;
+    width: 20%;
+    /**background-color: #aaa;**/
+    
+}
+
+#completed-list{
+    background-color: #fdfcdc;
+}
+
+#completed-list li{
+    list-style-type: disc;
+    margin: 0 20px;
+    width: 20%;
+}
+
+#todo-list li:hover{
+    cursor: pointer;
+    margin: 2px 30px;
+    list-style-type: circle;
+    
+}
+
+#completed-list li:hover{
+    cursor: pointer;
+    margin: 2px 30px;
+    list-style-type: circle;
+    
 }
