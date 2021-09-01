@@ -1,5 +1,7 @@
 let btnAgregar = document.getElementById("agregar")
 
+btnAgregar.addEventListener("click", agrega)
+
 function agrega(){
     myArray = [];
     const valorDePrueba = document.getElementById("prueba").value
